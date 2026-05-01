@@ -24,7 +24,7 @@
  *   uo_out[7:2] = rx_data[5:0] (Datos recibidos, bits 0-5)
  */
  
-module tt_um_example (
+module tt_um_spi_slave (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
