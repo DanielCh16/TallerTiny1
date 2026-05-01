@@ -9,9 +9,6 @@ module mux_2to1_4b(
   input logic [3:0]  b_i,
   input logic        s_i,
   output logic [3:0] q_o);
-
-  timeunit 1ns;
-  timeprecision 1ps;
   
   always_comb begin
     if(s_i == 1'b0) begin
